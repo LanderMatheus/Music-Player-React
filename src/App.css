@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white
+}
+
+header {
+
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px;
+
+    margin-bottom: 1px solid gray;
+
+    color: white;
+
+    border-bottom: 1px solid rgba(106, 99, 99, 1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 91px 11.42% 0 11.42%;
+    height: 87.3vh;
+
+}
+
+main h1 {
+    border-bottom: 1px solid rgba(106, 99, 99, 1);
+    padding-bottom: 24px;
+}
+
+.gradiente {
+    height: 100%;
+    background: linear-gradient(180deg, #0C0505 0%, #3A3535 47.92%, #5E5858 100%);
+}
+
+
+.CardMusics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 13px;
+}
+
+
+footer {
+
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+    justify-content: center;
+
+
+    height: 132px;
+    width: 100vw;
+
+    position: fixed;
+    bottom: 0;
+
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0.00) 100%);
+
+}
+
+.infoMusic {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+    position: absolute;
+    left: 10px
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.commands:first-child {
+    all: unset;
+    display: flex;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    gap: 40px;
+
+    cursor: pointer;
+}
+
+.play {
+    all: unset;
+}
+
+
+.progressBras {
+    width: 500px;
+}
