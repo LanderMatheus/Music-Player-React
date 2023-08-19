@@ -1,5 +1,5 @@
 Music Player App
-![print]([Music-Player-React/Captura%20de%20tela%202023-08-18%20210439.png](https://github.com/LanderMatheus/Music-Player-React/blob/main/Captura%20de%20tela%202023-08-18%20210439.png))
+![print]([print](https://github.com/LanderMatheus/Music-Player-React/blob/main/Captura%20de%20tela%202023-08-18%20210439.png))
 
 Um aplicativo simples de reprodução de música construído usando React.
 
